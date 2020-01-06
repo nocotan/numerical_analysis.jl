@@ -1,8 +1,6 @@
 using Plots;gr()
 
-function f(x)
-    x*x - 2
-end
+f(x) = x*x - 2
 
 function bisection(a, b, max_iter)
     c = 1e+9
