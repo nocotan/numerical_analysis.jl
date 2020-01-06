@@ -30,7 +30,7 @@
 
 となるので，区間<img src="https://latex.codecogs.com/gif.latex?[a,b]">内の積分は各微小区間内での積分値の和で表されることから，以下のように書くことが出来る．
 
-<img src="https://latex.codecogs.com/gif.latex?\int^b_af(x)dx=\frac{h}{2}(f(x_0)+f(x_1))+\frac{h}{2}(f(x_1)+f(x_2))+\cdots=\frac{h}{2}(f(x_0)+2f(x_1)+\cdots+f(x_n))">
+<img src="https://latex.codecogs.com/gif.latex?\int^b_af(x)dx=\frac{h}{2}(f(x_0)+f(x_1))+\frac{h}{2}(f(x_1)+f(x_2))+\cdots\\=\frac{h}{2}(f(x_0)+2f(x_1)+\cdots+f(x_n))">
 
 ```bash
 Analytical=2
