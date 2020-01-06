@@ -27,4 +27,4 @@
 
 求める解は<img src="https://latex.codecogs.com/gif.latex?\frac{a+b}{2}">であるので計算を終了する．
 
-
+![](bisection.png)
