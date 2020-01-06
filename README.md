@@ -1,4 +1,4 @@
-# numerical_calculus.jl
+# 数値計算100本ノック
 
 Juliaによる数値計算100本ノック
 
