@@ -31,7 +31,7 @@
 
 ![](bisection.png)
 
-## Newton法による非線形方程式
+## 2. Newton法による非線形方程式
 Newton法によって<img src="https://latex.codecogs.com/gif.latex?f(x)=x^2-2">の解を求める．
 
 ### Newton法
