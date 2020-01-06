@@ -28,4 +28,27 @@
 
 <img src="https://latex.codecogs.com/gif.latex?y''-6y'+9y=0">, （初期条件：<img src="https://latex.codecogs.com/gif.latex?x=0">で<img src="https://latex.codecogs.com/gif.latex?y=0">，<img src="https://latex.codecogs.com/gif.latex?y'=1">）
 
+### 解析解
+
+与式より，特性方程式を解くと，
+
+<img src="https://latex.codecogs.com/gif.latex?\lambda^2-6\lambda+9=0\\(\lambda-3)^2=0\\\lambda=3">
+
+したがって与式の一般解は，
+
+<img src="https://latex.codecogs.com/gif.latex?y=(C_1+C_2x)e^{3x}">
+
+また，初期条件より，
+
+<img src="https://latex.codecogs.com/gif.latex?y(0)=C_1=0">
+,
+<img src="https://latex.codecogs.com/gif.latex?y'(0)=C_2=1">
+
+より，求める一般解は，
+
+<img src="https://latex.codecogs.com/gif.latex?y=xe^{3x}">
+
+
+
+
 ![](2nd_order_euler.png)
