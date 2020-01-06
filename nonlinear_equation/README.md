@@ -1,6 +1,6 @@
 # 非線形方程式
 
-## 1. 二分法による非線形方程式
+## 二分法による非線形方程式
 二分法によって<img src="https://latex.codecogs.com/gif.latex?f(x)=x^2-2">の解を求める．
 ここで初期値は<img src="https://latex.codecogs.com/gif.latex?a=1">，<img src="https://latex.codecogs.com/gif.latex?b=2">とする．
 
@@ -31,7 +31,7 @@
 
 ![](bisection.png)
 
-## 2. Newton法による非線形方程式
+## Newton法による非線形方程式
 Newton法によって<img src="https://latex.codecogs.com/gif.latex?f(x)=x^2-2">の解を求める．
 
 ### Newton法
