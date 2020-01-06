@@ -1,5 +1,17 @@
 # 行列演算
 
+juliaには線形代数関連のパッケージである```LinearAlgebra```が存在し，これを利用することが出来る．
+
+* パッケージの追加
+```julia
+(v1.3) pkg> add LinearAlgebra
+```
+
+* パッケージの利用
+```julia
+using LinearAlgebra
+```
+
 ## 行列の対角化
 ある正方行列<img src="https://latex.codecogs.com/gif.latex?A">に対して，正則行列<img src="https://latex.codecogs.com/gif.latex?P">を用いて<img src="https://latex.codecogs.com/gif.latex?P^{-1}AP">を対角行列にする操作を対角化と言う．
 
