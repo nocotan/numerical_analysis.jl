@@ -17,7 +17,25 @@
 
 対角化に使える行列には，固有ベクトルを並べた行列があり，得られる対角行列の対角成分は<img src="https://latex.codecogs.com/gif.latex?A">の固有値である．
 
+```bash
+Eigenvalues=[1.0, 4.0]
+D=[-0.4472135954999579 0.7071067811865475; 0.8944271909999159 0.7071067811865475]
+
 ## 逆行列の計算
+逆行列は，<img src="https://latex.codecogs.com/gif.latex?n">次の正則行列<img src="https://latex.codecogs.com/gif.latex?A">について，
+
+<img src="https://latex.codecogs.com/gif.latex?AA^{-1}=A^{-1}A=E">
+
+を満足するような<img src="https://latex.codecogs.com/gif.latex?A^{-1}">のことを指す．
+ある正則行列について，逆行列は常に一つだけ定まる．
+
+逆行列は掃き出し法，もしくは余因子を用いた方法によって求められる．
+
+```bash
+A^{-1}=[-0.5 -0.75 0.25; 0.5 0.25 0.25; -1.0 -0.5 0.5]
+A*A^{-1}=[1.0 0.0 0.0; 0.0 1.0 0.0; 0.0 0.0 1.0]
+```
+
 
 ## 特異値分解
 
