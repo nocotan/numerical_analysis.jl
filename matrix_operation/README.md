@@ -12,7 +12,7 @@ juliaには線形代数関連のパッケージである```LinearAlgebra```が�
 using LinearAlgebra
 ```
 
-## 1. 行列の対角化
+## 行列の対角化
 ある正方行列<img src="https://latex.codecogs.com/gif.latex?A">に対して，正則行列<img src="https://latex.codecogs.com/gif.latex?P">を用いて<img src="https://latex.codecogs.com/gif.latex?P^{-1}AP">を対角行列にする操作を対角化と言う．
 
 <img src="https://latex.codecogs.com/gif.latex?n">次の正方行列<img src="https://latex.codecogs.com/gif.latex?A">の対角化について，以下の同値な条件がある．
@@ -34,7 +34,7 @@ Eigenvalues=[1.0, 4.0]
 D=[-0.4472135954999579 0.7071067811865475; 0.8944271909999159 0.7071067811865475]
 ```
 
-## 2.逆行列の計算
+## 逆行列の計算
 逆行列は，<img src="https://latex.codecogs.com/gif.latex?n">次の正則行列<img src="https://latex.codecogs.com/gif.latex?A">について，
 
 <img src="https://latex.codecogs.com/gif.latex?AA^{-1}=A^{-1}A=E">
@@ -50,7 +50,7 @@ A*A^{-1}=[1.0 0.0 0.0; 0.0 1.0 0.0; 0.0 0.0 1.0]
 ```
 
 
-## 3.特異値分解
+## 特異値分解
 任意の<img src="https://latex.codecogs.com/gif.latex?m\times{n}">行列<img src="https://latex.codecogs.com/gif.latex?A">について，
 
 * <img src="https://latex.codecogs.com/gif.latex?m\times{m}">の直交行列<img src="https://latex.codecogs.com/gif.latex?U">
