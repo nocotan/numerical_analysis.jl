@@ -1,8 +1,8 @@
 # 非線形方程式
 
 ## 1. 二分法による非線形方程式
-二分法によって(ii) <img src="https://latex.codecogs.com/gif.latex?f(x)=x^2-2">の解を求める．
-ここで初期値は(ii) <img src="https://latex.codecogs.com/gif.latex?a=1">，<img src="https://latex.codecogs.com/gif.latex?b=2">とする．
+二分法によって<img src="https://latex.codecogs.com/gif.latex?f(x)=x^2-2">の解を求める．
+ここで初期値は<img src="https://latex.codecogs.com/gif.latex?a=1">，<img src="https://latex.codecogs.com/gif.latex?b=2">とする．
 
 ### 二分法
 関数<img src="https://latex.codecogs.com/gif.latex?f(x)">が<img src="https://latex.codecogs.com/gif.latex?a<b">である<img src="https://latex.codecogs.com/gif.latex?a">と<img src="https://latex.codecogs.com/gif.latex?b">に対して，
