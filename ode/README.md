@@ -1,6 +1,6 @@
 # 常微分方程式
 
-## 1. Euler法による1階常微分方程式
+## Euler法による1階常微分方程式
 以下の１階常微分方程式をEuler法によって解く．
 
 <img src="https://latex.codecogs.com/gif.latex?\frac{dy}{dt}&space;=&space;5y&space;&plus;&space;4,\&space;y(0)&space;=&space;y_0">
@@ -23,7 +23,7 @@
 ![](1st_order_euler.png)
 
 
-## 2. Euler法による2階常微分方程式
+## Euler法による2階常微分方程式
 以下の2階常微分方程式をEuler法によって解く．
 
 <img src="https://latex.codecogs.com/gif.latex?y''-6y'+9y=0">, （初期条件：<img src="https://latex.codecogs.com/gif.latex?x=0">で<img src="https://latex.codecogs.com/gif.latex?y=0">，<img src="https://latex.codecogs.com/gif.latex?y'=1">）
