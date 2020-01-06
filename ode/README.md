@@ -21,3 +21,11 @@
 となる．
 
 ![](1st_order_euler.png)
+
+
+## 2. Euler法による2階常微分方程式
+以下の2階常微分方程式をEuler法によって解く．
+
+<img src="https://latex.codecogs.com/gif.latex?y''-6y'+9y=0">, （初期条件：<img src="https://latex.codecogs.com/gif.latex?x=0">で<img src="https://latex.codecogs.com/gif.latex?y=0">，<img src="https://latex.codecogs.com/gif.latex?y'=1">）
+
+![](2nd_order_euler.png)
