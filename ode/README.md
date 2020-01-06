@@ -40,8 +40,7 @@
 
 また，初期条件より，
 
-<img src="https://latex.codecogs.com/gif.latex?y(0)=C_1=0">
-,
+<img src="https://latex.codecogs.com/gif.latex?y(0)=C_1=0">,
 <img src="https://latex.codecogs.com/gif.latex?y'(0)=C_2=1">
 
 より，求める一般解は，
