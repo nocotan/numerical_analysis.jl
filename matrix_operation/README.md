@@ -20,6 +20,7 @@
 ```bash
 Eigenvalues=[1.0, 4.0]
 D=[-0.4472135954999579 0.7071067811865475; 0.8944271909999159 0.7071067811865475]
+```
 
 ## 逆行列の計算
 逆行列は，<img src="https://latex.codecogs.com/gif.latex?n">次の正則行列<img src="https://latex.codecogs.com/gif.latex?A">について，
