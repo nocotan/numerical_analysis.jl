@@ -51,5 +51,20 @@ A*A^{-1}=[1.0 0.0 0.0; 0.0 1.0 0.0; 0.0 0.0 1.0]
 
 
 ## 特異値分解
+任意の<img src="https://latex.codecogs.com/gif.latex?m\times{n}">行列<img src="https://latex.codecogs.com/gif.latex?A">について，
+
+* <img src="https://latex.codecogs.com/gif.latex?m\times{m}">の直交行列<img src="https://latex.codecogs.com/gif.latex?U">
+* <img src="https://latex.codecogs.com/gif.latex?n\times{n}">の直交行列<img src="https://latex.codecogs.com/gif.latex?V">
+* <img src="https://latex.codecogs.com/gif.latex?m\times{n}">の非対角成分が0で，対角成分が非負であり降順に並んでいるような行列<img src="https://latex.codecogs.com/gif.latex?\Sigma">が存在し，
+
+<img src="https://latex.codecogs.com/gif.latex?A=U\Sigma{V}">の行列積の形で表すことを特異値分解という．
+
+```bash
+A=Int8[-10 -4; -69 6]
+U=[-0.13817012189235134 -0.9904085103714793; -0.9904085103714793 0.1381701218923512]
+S=[69.92790909339664, 4.8049484727368865]
+V=[0.9970252126577499 0.07707610086640548; -0.07707610086640548 0.9970252126577499]
+USV=[-9.999999999999996 -3.9999999999999982; -68.99999999999999 6.0]
+```
 
 ## 線型方程式の求解
