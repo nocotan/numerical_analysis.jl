@@ -30,4 +30,4 @@ max_iter = 20
 c, error = bisection(a, b, max_iter)
 t = 1:max_iter
 
-plot(t, error, color=:purple, linewidth=3, label="Error",xlabel="t",ylabel="y", fmt=:png)
+plot(t, error, color=:purple, linewidth=3, label="bisection",xlabel="t",ylabel="Error", fmt=:png)
