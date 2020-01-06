@@ -31,5 +31,14 @@ Juliaによる数値計算100本ノック
 ### [常微分方程式](ode)
 * [x] Euler法による1階常微分方程式
 * [x] Euler法による2階常微分方程式
+* [ ] Heun法による1階常微分方程式
+* [ ] Heun法による2階常微分方程式
 * [ ] Runge–Kutta法による1階常微分方程式
 * [ ] Runge–Kutta法による2階常微分方程式
+
+### [偏微分方程式](pde)
+* [ ] Koreweg de Vries方程式のmethod of linesによる数値解
+* [ ] Koreweg de Vries方程式の有限差分法による数値解
+
+### [有限要素法](fem)
+* [ ] Koreweg de Vries方程式の有限要素法による数値解
