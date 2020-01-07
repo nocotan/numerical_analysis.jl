@@ -45,9 +45,9 @@ Juliaによる数値計算100本ノック
 * [x] ポテンシャルに基づく二次元運動（電荷）
 
 ### [偏微分方程式](pde)（0/4）
-* [ ] Koreweg de Vries方程式のmethod of linesによる数値解
 * [ ] Laplace方程式の境界値問題（ガウスの消去法）
 * [ ] Laplace方程式の境界値問題（ヤコビ法）
+* [ ] Koreweg de Vries方程式のmethod of linesによる数値解
 * [ ] Koreweg de Vries方程式の有限差分法による数値解
 
 ### [有限要素法](fem)（0/1）
