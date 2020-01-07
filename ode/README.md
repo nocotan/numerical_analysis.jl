@@ -97,3 +97,18 @@
 実行例
 
 ![](lander.png)
+
+## ポテンシャルに基づく二次元運動（電荷）
+ここでは質点の二次元平面上での軌道を計算することを目指す．
+今回の設定では，平面内に固定された２つの電荷<img src="https://latex.codecogs.com/gif.latex?Q_1,Q_2">がある時に，自由に動き回れる電荷を持った質点の平面内での軌道を計算する．
+
+質点の持つ電荷は-1であるとし，<img src="https://latex.codecogs.com/gif.latex?Q_1,Q_2">から受ける力はそれらと質点との距離の2乗に反比例するものとする．
+
+* <img src="https://latex.codecogs.com/gif.latex?|F_{Q_1}|=\frac{kq_1}{r^2}">
+* <img src="https://latex.codecogs.com/gif.latex?|F_{Q_2}|=\frac{kq_2}{r^2}">
+
+今回は，打ち切り時刻，初速度，初期位置，電荷の配置場所及び電荷の値を適当に定め，プロットしてみる．
+
+実行例
+
+![](efield.png)
