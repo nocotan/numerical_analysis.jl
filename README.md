@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（26/47）
+## Contents（26/52）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -40,6 +40,13 @@ Juliaによる数値計算100本ノック．
 * [x] 行列の対角化
 * [x] 逆行列の計算
 * [x] 特異値分解
+
+### [線型方程式](linear_equation)（0/5）
+* [ ] ガウスの消去法
+* [ ] LU分解
+* [ ] Jacobi法
+* [ ] Gauss-Seidel法
+* [ ] SOR法
 
 ### [非線形方程式](nonlinear_equation)（2/7）
 * [x] 二分法による非線形方程式
