@@ -3,4 +3,4 @@ for i in 1:1000000
     global x += 0.1
 end
 
-println("results=", x)
+println("result=", x)
