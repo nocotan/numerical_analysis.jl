@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（26/45）
+## Contents（26/47）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -34,7 +34,9 @@ Juliaによる数値計算100本ノック．
 * [ ] Gauss–Legendre公式による数値積分
 * [ ] Romberg積分による数値積分
 
-### [行列演算](matrix_operation)（3/3）
+### [行列演算](matrix_operation)（3/5）
+* [ ] 行列の定義
+* [ ] ノルムの計算
 * [x] 行列の対角化
 * [x] 逆行列の計算
 * [x] 特異値分解
