@@ -28,4 +28,5 @@ max_iter = 20
 c, error = bisection(a, b, max_iter)
 t = 1:max_iter
 
-plot(t, error, color=:purple, linewidth=3, label="bisection",xlabel="t",ylabel="Error", fmt=:png)
+plot(t, error, color=:cornflowerblue, label="bisection",xlabel="t",ylabel="Error")
+savefig("bisection.png")

@@ -22,4 +22,5 @@ x, error = newton(x_0, max_iter)
 print(error)
 t = 1:max_iter
 
-plot(t, error, color=:purple, linewidth=3, label="newton",xlabel="t",ylabel="Error", fmt=:png)
+plot(t, error, color=:cornflowerblue, label="newton",xlabel="t",ylabel="Error")
+savefig("newton.png")
