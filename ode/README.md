@@ -48,6 +48,37 @@
 <img src="https://latex.codecogs.com/gif.latex?y=xe^{3x}">
 
 
-
-
 ![](2nd_order_euler.png)
+
+## 質点の１次元運動（自由落下）
+質点の運動は，次の運動方程式に支配される．
+
+<img src="https://latex.codecogs.com/gif.latex?F=m\alpha=m\frac{dv}{dt}=m\frac{d^2x}{dt^2}">
+
+ここで，
+* <img src="https://latex.codecogs.com/gif.latex?F">: 力
+* <img src="https://latex.codecogs.com/gif.latex?m">: 質量
+* <img src="https://latex.codecogs.com/gif.latex?\alpha">: 加速度
+* <img src="https://latex.codecogs.com/gif.latex?v">: 速度
+* <img src="https://latex.codecogs.com/gif.latex?x">: 位置
+* <img src="https://latex.codecogs.com/gif.latex?t">: 時刻
+
+この運動方程式を元に，最も単純な落下運動である**自由落下**を考える．
+
+重力以外の力が働かない**自由落下**の状態では，地球上では加速度<img src="https://latex.codecogs.com/gif.latex?\alpha">は定数<img src="https://latex.codecogs.com/gif.latex?g=9.80665(m/s^2)">となる．この定数<img src="https://latex.codecogs.com/gif.latex?g">を重力加速度と呼ぶ．
+自由落下の場合には，上記の運動方程式は解析的に解くことが出来る．速度と速度の初期値および位置と位置の初期値をそれぞれ<img src="https://latex.codecogs.com/gif.latex?v_f,v_0,x_f,x_0">とすると，それぞれの関係は，
+
+* <img src="https://latex.codecogs.com/gif.latex?v_f=v_0+gt">
+* <img src="https://latex.codecogs.com/gif.latex?x_f=x_0+v_0t+\frac{1}{2}gt^2">
+
+となり，これを解くことで自由落下の運動を求めることが出来る．
+しかし，実際の多くの問題は，このように運動方程式が解析的に解けるとは限らない．
+
+上記に基づいて，Euler法によって運動方程式を求める．ここで重力加速度```g=9.80665```，初期速度および初期位置は，```(v_0, x_0) = (0, 100)```と```(v_0, x_0)=(-100, 100)```のそれぞれについて計算を行い，軌道をプロットする．
+
+実行例
+```v_0 = 0, x_0 = 100```
+![](freefall_v0=0.png)
+
+```v_0 = -100, x_0 = 100```
+![](freefall_v0=-100.png)
