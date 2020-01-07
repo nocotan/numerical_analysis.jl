@@ -24,5 +24,6 @@ exact_solution(t) = t*exp(3*t)
 t = 0:dt:(T-1)dt
 y = euler_method(y_0, g_0, T, dt)
 
-plot(t, exact_solution, color=:red, linewidth=3, label="Exact",xlabel="t",ylabel="y", fmt=:png)
-plot!(t, y, color=:blue, linewidth=3, linestyle=:dash, label="Numerical",xlabel="t",ylabel="y", fmt=:png)
+plot(t, exact_solution, color=:cornflowerblue, label="Exact",xlabel="t",ylabel="y")
+plot!(t, y, color=:coral, linestyle=:dash, label="Numerical",xlabel="t",ylabel="y")
+savefig("2nd_order_euler.png")
