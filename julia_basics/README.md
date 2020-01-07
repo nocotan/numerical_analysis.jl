@@ -50,3 +50,18 @@ a/b=0.6
 sum=110
 prod=3715891200
 ```
+
+## 関数の定義
+
+以下の関数を定義し，<img src="https://latex.codecogs.com/gif.latex?x=0,x=0.5">のときの値を計算する．
+
+<img src="https://latex.codecogs.com/gif.latex?f(x)=\frac{1}{\sqrt{1-x^2}}">
+
+上記の関数は<img src="https://latex.codecogs.com/gif.latex?\sin">関数の逆関数を微分したものである．
+
+実行例
+
+```bash
+x=0: 1.0
+x=0.5: 1.1547005383792517
+```
