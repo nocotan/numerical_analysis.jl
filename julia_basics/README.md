@@ -35,3 +35,18 @@ a-b=-2
 axb=15
 a/b=0.6
 ```
+
+## 総和・総乗
+繰り返し評価を使って以下の総和および総乗を計算する．
+
+* <img src="https://latex.codecogs.com/gif.latex?\sum^{10}_{k=1}2k">
+* <img src="https://latex.codecogs.com/gif.latex?\prod^{10}_{k=1}2k">
+
+ここで，変数のスコープに注意する．グローバルに宣言された変数```x```に代入を行うには```global x += 1```というふうにしなければいけない．
+
+実行例
+
+```bash
+sum=110
+prod=3715891200
+```
