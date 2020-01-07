@@ -2,9 +2,7 @@
 
 ## 数値微分
 
-<img src="https://latex.codecogs.com/gif.latex?\sin">関数の数値微分を行う．
-
-数値微分は，以下の微分の定義
+**数値微分**は，以下の微分の定義
 
 <img src="https://latex.codecogs.com/gif.latex?f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}">
 
@@ -14,11 +12,12 @@
 
 によって近似することで導関数を求める．これを2点近似と呼ぶ．
 
+上記に従って，<img src="https://latex.codecogs.com/gif.latex?\sin">関数の数値微分を行う．ここで```h=1e-4```とする．
+
+実行例
 ![](numerical_differentiation.png)
 
 ## 台形則による数値積分
-
-<img src="https://latex.codecogs.com/gif.latex?\sin">関数の数値積分を行う．
 
 <img src="https://latex.codecogs.com/gif.latex?\int^\pi_0\sin(x)dx">
 
@@ -32,6 +31,9 @@
 
 <img src="https://latex.codecogs.com/gif.latex?\int^b_af(x)dx=\frac{h}{2}(f(x_0)+f(x_1))+\frac{h}{2}(f(x_1)+f(x_2))+\cdots\\=\frac{h}{2}(f(x_0)+2f(x_1)+\cdots+f(x_n))">
 
+
+上記に従って，<img src="https://latex.codecogs.com/gif.latex?\sin">関数の数値積分を行う．
+
 ```bash
 Analytical=2
 Numerical=1.9998355038874436
@@ -39,7 +41,6 @@ Numerical=1.9998355038874436
 
 ## Simpson則による数値積分
 
-<img src="https://latex.codecogs.com/gif.latex?\sin">関数の数値積分を行う．
 
 <img src="https://latex.codecogs.com/gif.latex?\int^\pi_0\sin(x)dx">
 
@@ -62,6 +63,9 @@ Simpson則による数値積分は，微小区間の関数値を二次方程式�
 
 <img src="https://latex.codecogs.com/gif.latex?\int^b_af(x)dx=\frac{h}{3}(y_0+4_y_1+2_y_2+4y_3+2y_4+\cdots2y_{n-2}+4y_{2n-1}+y_{2n})">
 
+上記に従って<img src="https://latex.codecogs.com/gif.latex?\sin">関数の数値積分を行う．
+
+実行例
 ```bash
 Analytical=2
 Numerical=2.0000000006764735

@@ -5,7 +5,7 @@ Juliaによる数値計算100本ノック
 ## Requirements
 * Julia v1.3.1
 
-## Contents（10/32）
+## Contents（13/32）
 
 ### [数値計算と誤差](numerical_error)（3/3）
 * [x] 桁落ち
