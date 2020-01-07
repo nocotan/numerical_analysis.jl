@@ -5,14 +5,14 @@ Juliaによる数値計算100本ノック
 ## Requirements
 * Julia v1.3.1
 
-## Contents
+## Contents（10/32）
 
 ### [数値計算と誤差](numerical_error)（0/3）
 * [ ] 桁落ち
 * [ ] 丸め誤差
 * [ ] 情報落ち
 
-### [微積分](calculus)（5/3）
+### [微積分](calculus)（3/5）
 * [x] 数値微分
 * [x] 台形則による数値積分
 * [x] Simpson則による数値積分
