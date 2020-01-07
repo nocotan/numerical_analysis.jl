@@ -7,7 +7,7 @@ Juliaによる数値計算100本ノック
 
 ## Contents（10/32）
 
-### [数値計算と誤差](numerical_error)（2/3）
+### [数値計算と誤差](numerical_error)（3/3）
 * [x] 桁落ち
 * [x] 丸め誤差
 * [x] 情報落ち
