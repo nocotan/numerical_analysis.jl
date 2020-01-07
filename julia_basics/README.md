@@ -128,7 +128,7 @@ theta=80: 1.3962634015954636
 ## マクローリン展開
 <img src="https://latex.codecogs.com/gif.latex?e^x">のマクローリン展開は，
 
-<img src="https://latex.codecogs.com/gif.latex?e^x = \sum^\infty_{n=0}\frac{1}{n!}x^n">
+<img src="https://latex.codecogs.com/gif.latex?e^x=\sum^\infty_{n=0}\frac{1}{n!}x^n">
 
 となる．
 
