@@ -6,10 +6,10 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（16/43）
+## Contents（17/43）
 
-### [Juliaの基本](julia_basics) (0/10)
-* [ ] 四則演算
+### [Juliaの基本](julia_basics) (1/10)
+* [x] 四則演算
 * [ ] 総和・総乗
 * [ ] 関数の定義
 * [ ] 関数のプロット
