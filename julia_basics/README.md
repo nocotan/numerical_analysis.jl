@@ -112,3 +112,54 @@ theta=80: 1.3962634015954636
 実行例
 
 ![](archimedean_spiral.png)
+
+
+## オイラーの公式
+指数関数と三角関数の間に，以下の関係が成り立つことが知られており，この公式をオイラーの公式と呼ぶ．
+
+<img src="https://latex.codecogs.com/gif.latex?e^{i\theta}=\cos\theta+i\sin\theta">
+
+この<img src="https://latex.codecogs.com/gif.latex?e^{i\theta}">をガウス平面上にプロットする．
+
+実行例
+
+![](eulers_formula.png)
+
+## マクローリン展開
+<img src="https://latex.codecogs.com/gif.latex?e^x">のマクローリン展開は，
+
+<img src="https://latex.codecogs.com/gif.latex?e^x = \sum^\infty_{n=0}\frac{1}{n!}x^n">
+
+となる．
+
+<img src="https://latex.codecogs.com/gif.latex?x=1">としてマクローリン展開を計算し，ネイピア数を求める．
+
+実行例
+
+```bash
+e=2.7182818284590455
+```
+
+## フェルマーテスト
+フェルマーテストは，フェルマーの小定理の対偶を利用した素数判定法．
+
+フェルマーの小定理
+>素数<img src="https://latex.codecogs.com/gif.latex?p">について，<img src="https://latex.codecogs.com/gif.latex?p">と互いに素な整数<img src="https://latex.codecogs.com/gif.latex?a">に対して以下が成り立つ．
+><img src="https://latex.codecogs.com/gif.latex?a^{p-1}\equiv1(\mod{p})">
+
+<img src="https://latex.codecogs.com/gif.latex?p">が合成数のとき，上記の等式は成り立たない可能性があることを利用して，素数判定を行う．
+
+**フェルマーテスト**
+以下の試行を1セットとして，複数回試行を繰り返す．
+1. <img src="https://latex.codecogs.com/gif.latex?a">を，<img src="https://latex.codecogs.com/gif.latex?2">から<img src="https://latex.codecogs.com/gif.latex?n-1">までの数からランダムに選ぶ
+2. <img src="https://latex.codecogs.com/gif.latex?a">と<img src="https://latex.codecogs.com/gif.latex?n">が互いに素でないとき，<img src="https://latex.codecogs.com/gif.latex?n">は合成数
+3. <img src="https://latex.codecogs.com/gif.latex?a^{p-1}\not\equiv1(\mod{p})">なら<img src="https://latex.codecogs.com/gif.latex?n">は合成数
+
+試行回数を100として，57および23が素数かどうか判定する．
+
+実行例
+
+```bash
+57 is prime: false
+23 is prime: true
+```
