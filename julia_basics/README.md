@@ -65,3 +65,50 @@ prod=3715891200
 x=0: 1.0
 x=0.5: 1.1547005383792517
 ```
+
+## 関数のプロット
+先程定義した以下の関数を<img src="https://latex.codecogs.com/gif.latex?-1<x<1">でプロットする．
+Juliaでプロットを行うには```Plots```パッケージを追加する必要がある．
+
+<img src="https://latex.codecogs.com/gif.latex?f(x)=\frac{1}{\sqrt{1-x^2}}">
+
+実行例
+
+![](plot_function.png)
+
+## 三角関数
+Juliaには三角関数が予め用意されている．
+<img src="https://latex.codecogs.com/gif.latex?\sin(x),\cos(x)">を<img src="https://latex.codecogs.com/gif.latex?-\pi/2<x<\pi/2">でプロットする．
+
+実行例
+
+![](trigonometric.png)
+
+## ラジアンと角度の変換
+ここでは角度をラジアンに変換する．
+角度の弧度法への変換は以下のように行うことが出来る．
+
+<img src="https://latex.codecogs.com/gif.latex?\theta^\circ=\theta\times\frac{\pi}{180}[rad]">
+
+ここでは<img src="https://latex.codecogs.com/gif.latex?\theta=60">および<img src="https://latex.codecogs.com/gif.latex?\theta=80">として計算し，結果を出力する．
+
+実行例
+
+```bash
+theta=60: 1.0471975511965976
+theta=80: 1.3962634015954636
+```
+
+## アルキメデスの渦
+デカルト座標系の点<img src="https://latex.codecogs.com/gif.latex?(x,y)">は極座標上の点<img src="https://latex.codecogs.com/gif.latex?(r,\theta)">で表現できる（極座標変換）．
+
+* <img src="https://latex.codecogs.com/gif.latex?x=r\cos\theta">
+* <img src="https://latex.codecogs.com/gif.latex?y=r\sin\theta">
+
+ここで，<img src="https://latex.codecogs.com/gif.latex?r=\theta">で描かれる曲線をアルキメデスの渦と呼ぶ．
+上記に従って，アルキメデスの渦をプロットする．
+
+
+実行例
+
+![](archimedean_spiral.png)
