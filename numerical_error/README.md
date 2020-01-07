@@ -12,7 +12,7 @@
 値のほぼ等しい数値同士の減算では，有効数字が失われる可能性がある．この現象を桁落ちと呼ぶ．
 例えば次のような計算を行う場合，<img src="https://latex.codecogs.com/gif.latex?x">
 
-<img src="https://latex.codecogs.com/gif.latex?\sqrt{x+1} - \sqrt{x}">
+<img src="https://latex.codecogs.com/gif.latex?\sqrt{x+1}-\sqrt{x}">
 
 上記を倍精度で計算する場合，<img src="https://latex.codecogs.com/gif.latex?x">が<img src="https://latex.codecogs.com/gif.latex?10^{15}">程度になると<img src="https://latex.codecogs.com/gif.latex?\sqrt{x+1}">と<img src="https://latex.codecogs.com/gif.latex?\sqrt{x}">の値が有効数字の範囲内でほぼ等しくなるため，減算によって有効数字が大きく損なわれる．
 さらに<img src="https://latex.codecogs.com/gif.latex?x">が<img src="https://latex.codecogs.com/gif.latex?10^{16}">程度では，減算の結果は0になってしまう．
