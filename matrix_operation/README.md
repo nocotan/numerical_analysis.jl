@@ -12,6 +12,42 @@ juliaには線形代数関連のパッケージである```LinearAlgebra```が�
 using LinearAlgebra
 ```
 
+## 行列の定義
+Juliaで行列の定義をしてみる．
+適当な2次，3次および4次正方行列を定義して，出力する．
+
+実行例
+
+```bash
+[1 2; 3 4]
+[5 6 7; 8 9 10; 10 9 8]
+[11 12 13 14; 15 16 17 18; 19 20 21 22; 23 24 25 26]
+```
+
+## 行列演算
+行列の基本演算を試す．
+<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{ccc}2&3&0\\1&2&4\\0&2&1\end{array}\right)">として，この行列同士の加算，減算，スカラー倍，行列積を試す．
+
+実行例
+
+```bash
+A=[2 3 0; 1 2 4; 0 2 1]
+A+A=[4 6 0; 2 4 8; 0 4 2]
+A-A=[0 0 0; 0 0 0; 0 0 0]
+A*A=[7 12 12; 4 15 12; 2 6 9]
+5*A=[10 15 0; 5 10 20; 0 10 5]
+```
+
+## ノルムの計算
+Juliaでは，行列のノルムは```norm()```関数で計算できる．
+上記で定義した```A```についてノルムを計算して出力する．
+
+実行例
+
+```bash
+norm(A): 6.244997998398398
+```
+
 ## 行列の対角化
 ある正方行列<img src="https://latex.codecogs.com/gif.latex?A">に対して，正則行列<img src="https://latex.codecogs.com/gif.latex?P">を用いて<img src="https://latex.codecogs.com/gif.latex?P^{-1}AP">を対角行列にする操作を対角化と言う．
 
