@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（26/60）
+## Contents（27/60）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -20,11 +20,11 @@ Juliaによる数値計算100本ノック．
 * [x] マクローリン展開
 * [x] フェルマーテスト
 
-### [数値計算と誤差](numerical_error)（3/5）
+### [数値計算と誤差](numerical_error)（4/5）
 * [x] 桁落ち
 * [x] 丸め誤差
 * [x] 情報落ち
-* [ ] Rumpの例題
+* [x] Rumpの例題
 * [ ] 誤差伝播
 
 ### [微積分](calculus)（3/5）
