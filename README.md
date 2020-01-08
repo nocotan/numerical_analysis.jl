@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（26/53）
+## Contents（26/56）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -76,5 +76,8 @@ Juliaによる数値計算100本ノック．
 * [ ] Koreweg de Vries方程式のmethod of linesによる数値解
 * [ ] Koreweg de Vries方程式の有限差分法による数値解
 
-### [有限要素法](fem)（0/1）
+### [有限要素法](fem)（0/4）
+* [ ] 単純領域のメッシュ分割
+* [ ] 複雑領域のメッシュ分割
 * [ ] Koreweg de Vries方程式の有限要素法による数値解
+* [ ] 熱拡散方程式の有限要素法による数値解
