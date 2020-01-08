@@ -102,3 +102,46 @@ S=[69.92790909339664, 4.8049484727368865]
 V=[0.9970252126577499 0.07707610086640548; -0.07707610086640548 0.9970252126577499]
 USV=[-9.999999999999996 -3.9999999999999982; -68.99999999999999 6.0]
 ```
+
+# Rank-nullity theorem
+Rank-nullity theorem，階数・退化次数または次元定理とは，以下の関係式を指す．
+
+<img src="https://latex.codecogs.com/gif.latex?rank(A)+dim(KerA)=dim(V)">
+
+これは，行列のランクと退化次数の和がその行列の列の数に一致することを主張している．
+
+<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{ccc}1&2&3\\2&4&6\\0&2&1\end{array}\right)">
+
+として，実際に計算してこれを確かめる．
+
+実行例
+
+```bash
+rank=2
+nullity=1
+dim(V)=3
+```
+
+## Frobenius theorem
+
+フロベニウスの定理
+
+<img src="https://latex.codecogs.com/gif.latex?n">次正方行列<img src="https://latex.codecogs.com/gif.latex?A">が固有値<img src="https://latex.codecogs.com/gif.latex?\lambda_1,\lambda_2,\dots,\lambda_n">を持つとき，行列<img src="https://latex.codecogs.com/gif.latex?X">の多項式
+
+<img src="https://latex.codecogs.com/gif.latex?f(X)=a_0X^n+a_1X^{n-1}+\dots+a_{n-1}X+a_nE">
+
+に<img src="https://latex.codecogs.com/gif.latex?A">を代入して得られる行列<img src="https://latex.codecogs.com/gif.latex?f(X)">の固有値は，
+
+<img src="https://latex.codecogs.com/gif.latex?f(\lambda_1),f(\lambda_2),\dots,f(\lambda_n)">
+
+と一致する．
+
+<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{ccc}2&3&0\\1&2&4\\0&2&1\end{array}\right)">，
+<img src="https://latex.codecogs.com/gif.latex?f(X)=X^3+2X^2+3X+5E">として，実際にこれを計算して確かめる．
+
+実行例
+
+```bash
+eigvals(f(X))=[0.6076951545867428, 21.392304845413243, 195.0]
+f(λ1)=0.6076951545867377f(λ2)=21.39230484541325f(λ3)=194.99999999999983
+```

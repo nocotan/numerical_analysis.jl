@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（28/60）
+## Contents（33/60）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -34,15 +34,15 @@ Juliaによる数値計算100本ノック．
 * [ ] Gauss–Legendre公式による数値積分
 * [ ] Romberg積分による数値積分
 
-### [線形代数](matrix_operation)（3/10）
+### [線形代数](matrix_operation)（8/10）
 * [x] 行列の定義
 * [x] 行列演算
 * [x] ノルムの計算
 * [x] 行列の対角化
 * [x] 逆行列の計算
 * [x] 特異値分解
-* [ ] Rank–nullity theorem
-* [ ] Frobenius theorem
+* [x] Rank–nullity theorem
+* [x] Frobenius theorem
 * [ ] Vandermonde行列式
 * [ ] Woodburyの恒等式
 * [ ] Cauchy-Binetの公式
@@ -72,7 +72,7 @@ Juliaによる数値計算100本ノック．
 * [ ] Runge–Kutta法による2階常微分方程式
 * [x] 質点の１次元運動（自由落下）
 * [x] 質点の１次元運動（着陸船）
-* [x] ポテンシャルに基づく二次元運動（電荷） 
+* [x] ポテンシャルに基づく二次元運動（電荷）
 * [ ] Volterraモデル
 
 ### [偏微分方程式](pde)（0/4）
