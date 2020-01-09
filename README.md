@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（33/60）
+## Contents（34/60）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -43,7 +43,7 @@ Juliaによる数値計算100本ノック．
 * [x] 特異値分解
 * [x] Rank–nullity theorem
 * [x] Frobenius theorem
-* [ ] Vandermonde行列式
+* [x] Vandermonde行列式
 * [ ] Woodburyの恒等式
 * [ ] Cauchy-Binetの公式
 

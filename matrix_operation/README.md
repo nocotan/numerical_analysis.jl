@@ -149,7 +149,7 @@ f(λ1)=0.6076951545867377f(λ2)=21.39230484541325f(λ3)=194.99999999999983
 ## Vandermonde行列式
 以下のように定義される行列をVandermonde行列という．
 
-<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{cccc}1&1&\cdots&1\\x_1&x_2&\cdots&x_n\\\vdots&\vdots&\vdots&\vdots\\x_1^{n-1}&x_2^{n-1}&\cdots&x_n^{n-1}\end{array}\right)">
+<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{cccc}1&1&\cdots&1\\x_1&x_2&\cdots&x_n\\\vdots&\vdots&\ddots&\vdots\\x_1^{n-1}&x_2^{n-1}&\cdots&x_n^{n-1}\end{array}\right)">
 
 Vandermonde行列の行列式は，各行の公比の差積に等しく，以下のように表される．
 
@@ -161,3 +161,27 @@ Vandermonde行列の行列式は，各行の公比の差積に等しく，以下
 (i) n=2のとき
 
 <img src="https://latex.codecogs.com/gif.latex?A=\left|\begin{array}{cc}1&1\\x_1&x_2\end{array}\right|=x_2-x_1">
+
+より成り立つ．
+
+(ii) <img src="https://latex.codecogs.com/gif.latex?n=k-1">のときに成り立つと仮定する．<img src="https://latex.codecogs.com/gif.latex?n=k">のときを考えると，その行列式は
+
+<img src="https://latex.codecogs.com/gif.latex?det(A)=\left|\begin{array}{cccc}1&1&\cdots&1\\x_1&x_2&\cdots&x_k\\x_1^2&x_2^2&\cdots&x_k^2\\\vdots&\vdots&\ddots&\vdots\\x_1^{k-1}&x_2^{k-1}&\cdots&x_k^{k-1}\end{array}\right|">
+
+これから，<img src="https://latex.codecogs.com/gif.latex?2\sim{k-1}">行までの各行を<img src="https://latex.codecogs.com/gif.latex?x_1">倍して次の行から引くと，
+
+<img src="https://latex.codecogs.com/gif.latex?det(A)=\left|\begin{array}{cccc}1&1&\cdots&1\\0&x_2-x_1&\cdots&x_k-x_1\\0&x_2(x_2-x_1)&\cdots&x_k(x_k-x_1)\\\vdots&\vdots&\ddots&\vdots\\0&x_2^{k-2}(x_2-x_1)&\cdots&x_k^{k-2}(x_k-x_1)\end{array}\right|\\=\left|\begin{array}{ccc}x_2-x_1&\cdots&x_k-x_1\\x_2(x_2-x_1)&\cdots&x_k(x_k-x_1)\\\vdots&\ddots&\vdots\\x_2^{k-2}(x_2-x_1)&\cdots&x_k^{k-2}(x_k-x_1)\end{array}\right|\\=(x_2-x_1)\cdots(x_k-x_1)\left|\begin{array}{ccc}1&\cdots&1\\x_2&\cdots&x_k\\\vdots&\ddots&\vdots\\x_2^{k-2}&\cdots&x_k^{k-2}\end{array}\right|\\=(x_2-x_1)\cdots(x_k-x_1)\prod_{1\leq{i}<j\leq{k-1}}(x_j-x_i)\\=\prod_{1\leq{i}<j\leq{k}}(x_j-x_i)">
+
+以上より，証明された．
+
+実際にプログラムによって実験し，これを確かめる．
+対象のVandermonde行列式を，
+
+<img src="https://latex.codecogs.com/gif.latex?det(A)=\left|\begin{array}{cccc}1&1&1&1\\2&3&5&4\\4&9&25&16\\8&27&125&64\end{array}\right|">
+
+とし，Vandermonde行列式の式およびJuliaの関数による行列式の出力を比較する．
+
+```bash
+vandermonde: -12
+det(A): -11.999999999999993
+```
