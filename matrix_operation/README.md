@@ -145,3 +145,19 @@ dim(V)=3
 eigvals(f(X))=[0.6076951545867428, 21.392304845413243, 195.0]
 f(λ1)=0.6076951545867377f(λ2)=21.39230484541325f(λ3)=194.99999999999983
 ```
+
+## Vandermonde行列式
+以下のように定義される行列をVandermonde行列という．
+
+<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{cccc}1&1&\cdots&1\\x_1&x_2&\cdots&x_n\\\vdots&\vdots&\vdots&\vdots\\x_1^{n-1}&x_2^{n-1}&\cdots&x_n^{n-1}\end{array}\right)">
+
+Vandermonde行列の行列式は，各行の公比の差積に等しく，以下のように表される．
+
+<img src="https://latex.codecogs.com/gif.latex?det(V)=\prod_{1\leq{i}<j\leq{n}}(x_j-x_i)=(-1)^{n(n-1)/2}\prod_{1\leq{i}<j\leq{n}}(x_i-x_j)">
+
+（証明）
+帰納法によって証明する．
+
+(i) n=2のとき
+
+<img src="https://latex.codecogs.com/gif.latex?A=\left|\begin{array}{cc}1&1\\x_1&x_2\end{array}\right|=x_2-x_1">
