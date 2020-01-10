@@ -20,6 +20,8 @@ $ make -j2
 ```
 
 ## 四則演算
+[=> 回答](./operation.jl)
+
 Juliaを用いた基本的な四則演算を試す．
 <img src="https://latex.codecogs.com/gif.latex?a=3">，<img src="https://latex.codecogs.com/gif.latex?b=5">として，
 
@@ -30,10 +32,11 @@ Juliaを用いた基本的な四則演算を試す．
 
 を計算し出力する．
 
-[回答例](./operation.jl)
 
 
 ## 総和・総乗
+[=> 回答](./sum_prod.jl)
+
 繰り返し評価を使って以下の総和および総乗を計算する．
 
 * <img src="https://latex.codecogs.com/gif.latex?\sum^{10}_{k=1}2k">  
@@ -42,10 +45,9 @@ Juliaを用いた基本的な四則演算を試す．
 ここで，変数のスコープに注意する．  
 グローバルに宣言された変数 `x` に代入を行うには `global x += 1` というふうにしなければいけない．
 
-[回答例](./sum_prod.jl)
-
 
 ## 関数の定義
+[=> 回答](./def_function.jl)
 
 以下の関数を定義し，<img src="https://latex.codecogs.com/gif.latex?x=0,x=0.5">のときの値を計算する．
 
@@ -53,29 +55,32 @@ Juliaを用いた基本的な四則演算を試す．
 
 上記の関数は<img src="https://latex.codecogs.com/gif.latex?\sin">関数の逆関数を微分したものである．
 
-[回答例](./def_function.jl)
 
 ## 関数のプロット
+[=> 回答](./plot_function.jl)
+
 先程定義した以下の関数を<img src="https://latex.codecogs.com/gif.latex?-1<x<1">でプロットする．
 Juliaでプロットを行うには `Plots` パッケージを追加する必要がある．
 
 <img src="https://latex.codecogs.com/gif.latex?f(x)=\frac{1}{\sqrt{1-x^2}}">
 
-**実行例**
+**実行例**  
 ![plot-function](plot_function.png)
 
-[回答例](./plot_function.jl)
 
 ## 三角関数
+[=> 回答](./trigonometric.jl)
+
 Juliaには三角関数が予め用意されている．
 <img src="https://latex.codecogs.com/gif.latex?\sin(x),\cos(x)">を<img src="https://latex.codecogs.com/gif.latex?-\pi/2<x<\pi/2">でプロットする．
 
-**実行例**
+**実行例**  
 ![trigonometric](trigonometric.png)
 
-[回答例](./trigonometric.jl)
 
 ## ラジアンと角度の変換
+[=> 回答](./deg_rad.jl)
+
 ここでは角度をラジアンに変換する．
 角度の弧度法への変換は以下のように行うことが出来る．
 
@@ -83,10 +88,11 @@ Juliaには三角関数が予め用意されている．
 
 ここでは<img src="https://latex.codecogs.com/gif.latex?\theta=60">および<img src="https://latex.codecogs.com/gif.latex?\theta=80">として計算し，結果を出力する．
 
-[回答例](./deg_rad.jl)
 
 
 ## アルキメデスの渦
+[=> 回答](./archimedean_spiral.jl)
+
 デカルト座標系の点<img src="https://latex.codecogs.com/gif.latex?(x,y)">は極座標上の点<img src="https://latex.codecogs.com/gif.latex?(r,\theta)">で表現できる（極座標変換）．
 
 * <img src="https://latex.codecogs.com/gif.latex?x=r\cos\theta">
@@ -96,11 +102,8 @@ Juliaには三角関数が予め用意されている．
 上記に従って，アルキメデスの渦をプロットする．
 
 
-**実行例**
+**実行例**  
 ![archimedianSpiral](archimedean_spiral.png)
-
-[回答例](./archimedean_spiral.jl)
-
 
 ## オイラーの公式
 指数関数と三角関数の間に，以下の関係が成り立つことが知られており，この公式をオイラーの公式と呼ぶ．
@@ -109,11 +112,14 @@ Juliaには三角関数が予め用意されている．
 
 この<img src="https://latex.codecogs.com/gif.latex?e^{i\theta}">をガウス平面上にプロットする．
 
-**実行例**
+**実行例**  
+[=> 回答](./eulers_formula.jl)
+
 ![eulersFormula](eulers_formula.png)
-[回答例](./eulers_formula.jl)
 
 ## マクローリン展開
+[=> 回答](./maclaurins_expansional.jl)
+
 <img src="https://latex.codecogs.com/gif.latex?e^x">のマクローリン展開は，
 
 <img src="https://latex.codecogs.com/gif.latex?e^x=\sum^\infty_{n=0}\frac{1}{n!}x^n">
@@ -122,10 +128,10 @@ Juliaには三角関数が予め用意されている．
 
 <img src="https://latex.codecogs.com/gif.latex?x=1">としてマクローリン展開を計算し，ネイピア数を求める．
 
-[回答例](./maclaurins_expansional.jl)
-
 
 ## フェルマーテスト
+[=> 回答](./fermat_test.jl)
+
 フェルマーテストは，フェルマーの小定理の対偶を利用した素数判定法．
 
 フェルマーの小定理
@@ -142,4 +148,3 @@ Juliaには三角関数が予め用意されている．
 
 試行回数を100として，57および23が素数かどうか判定する．
 
-[回答例](./fermat_test.jl)
