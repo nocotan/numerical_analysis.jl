@@ -197,7 +197,7 @@ det(A): -11.999999999999993
 
 ここで，<img src="https://latex.codecogs.com/gif.latex?A_S">は<img src="https://latex.codecogs.com/gif.latex?A">から<img src="https://latex.codecogs.com/gif.latex?S">に対応する列を取り出した行列，<img src="https://latex.codecogs.com/gif.latex?B^S">は<img src="https://latex.codecogs.com/gif.latex?B">から<img src="https://latex.codecogs.com/gif.latex?S">に対応する行を取り出した行列．
 
-<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{cccc}3&1&2&2\\1&3&8&2\\2&3&5&1\end{array}\right), B=\left(\begin{array}{ccc}1&0&2\\1&3&6\\2&2&0\\0&1&1\end{array}\right)">
+<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{cccc}3&1&2&2\\1&3&8&2\\2&3&5&1\end{array}\right),B=\left(\begin{array}{ccc}1&0&2\\1&3&6\\2&2&0\\0&1&1\end{array}\right)">
 
 として，この等式が成り立つことを確認する．
 
