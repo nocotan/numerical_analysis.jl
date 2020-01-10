@@ -13,5 +13,5 @@ function fermat_test(n::Int128)
     true
 end
 
-println("57 is prime: ", fermat_test(Int128(57)))
-println("23 is prime: ", fermat_test(Int128(23)))
+println("57 is prime: ", fermat_test(Int128(57)))  # -> 57 is prime: false
+println("23 is prime: ", fermat_test(Int128(23)))  # -> 23 is prime: true

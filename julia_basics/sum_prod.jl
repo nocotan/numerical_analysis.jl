@@ -6,5 +6,5 @@ for k in 1:10
     global result_prod *= 2*k
 end
 
-println("sum=", result_sum)
-println("prod=", result_prod)
+println("sum=", result_sum)    # -> sum=110
+println("prod=", result_prod)  # -> prod=3715891200

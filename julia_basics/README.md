@@ -23,33 +23,27 @@ $ make -j2
 Juliaを用いた基本的な四則演算を試す．
 <img src="https://latex.codecogs.com/gif.latex?a=3">，<img src="https://latex.codecogs.com/gif.latex?b=5">として，
 
-<img src="https://latex.codecogs.com/gif.latex?a+b,a-b,a*b,a/b">
+<img src="https://latex.codecogs.com/gif.latex?a+b">  
+<img src="https://latex.codecogs.com/gif.latex?a-b">  
+<img src="https://latex.codecogs.com/gif.latex?a*b">  
+<img src="https://latex.codecogs.com/gif.latex?a/b">  
 
 を計算し出力する．
 
-実行例
+[回答例](./operation.jl)
 
-```bash
-a+b=8
-a-b=-2
-axb=15
-a/b=0.6
-```
 
 ## 総和・総乗
 繰り返し評価を使って以下の総和および総乗を計算する．
 
-* <img src="https://latex.codecogs.com/gif.latex?\sum^{10}_{k=1}2k">
-* <img src="https://latex.codecogs.com/gif.latex?\prod^{10}_{k=1}2k">
+* <img src="https://latex.codecogs.com/gif.latex?\sum^{10}_{k=1}2k">  
+* <img src="https://latex.codecogs.com/gif.latex?\prod^{10}_{k=1}2k">  
 
-ここで，変数のスコープに注意する．グローバルに宣言された変数```x```に代入を行うには```global x += 1```というふうにしなければいけない．
+ここで，変数のスコープに注意する．  
+グローバルに宣言された変数 `x` に代入を行うには `global x += 1` というふうにしなければいけない．
 
-実行例
+[回答例](./sum_prod.jl)
 
-```bash
-sum=110
-prod=3715891200
-```
 
 ## 関数の定義
 
@@ -59,30 +53,27 @@ prod=3715891200
 
 上記の関数は<img src="https://latex.codecogs.com/gif.latex?\sin">関数の逆関数を微分したものである．
 
-実行例
-
-```bash
-x=0: 1.0
-x=0.5: 1.1547005383792517
-```
+[回答例](./def_function.jl)
 
 ## 関数のプロット
 先程定義した以下の関数を<img src="https://latex.codecogs.com/gif.latex?-1<x<1">でプロットする．
-Juliaでプロットを行うには```Plots```パッケージを追加する必要がある．
+Juliaでプロットを行うには `Plots` パッケージを追加する必要がある．
 
 <img src="https://latex.codecogs.com/gif.latex?f(x)=\frac{1}{\sqrt{1-x^2}}">
 
-実行例
+**実行例**
+![plot-function](plot_function.png)
 
-![](plot_function.png)
+[回答例](./plot_function.jl)
 
 ## 三角関数
 Juliaには三角関数が予め用意されている．
 <img src="https://latex.codecogs.com/gif.latex?\sin(x),\cos(x)">を<img src="https://latex.codecogs.com/gif.latex?-\pi/2<x<\pi/2">でプロットする．
 
-実行例
+**実行例**
+![trigonometric](trigonometric.png)
 
-![](trigonometric.png)
+[回答例](./trigonometric.jl)
 
 ## ラジアンと角度の変換
 ここでは角度をラジアンに変換する．
@@ -92,12 +83,8 @@ Juliaには三角関数が予め用意されている．
 
 ここでは<img src="https://latex.codecogs.com/gif.latex?\theta=60">および<img src="https://latex.codecogs.com/gif.latex?\theta=80">として計算し，結果を出力する．
 
-実行例
+[回答例](./deg_rad.jl)
 
-```bash
-theta=60: 1.0471975511965976
-theta=80: 1.3962634015954636
-```
 
 ## アルキメデスの渦
 デカルト座標系の点<img src="https://latex.codecogs.com/gif.latex?(x,y)">は極座標上の点<img src="https://latex.codecogs.com/gif.latex?(r,\theta)">で表現できる（極座標変換）．
@@ -109,9 +96,10 @@ theta=80: 1.3962634015954636
 上記に従って，アルキメデスの渦をプロットする．
 
 
-実行例
+**実行例**
+![archimedianSpiral](archimedean_spiral.png)
 
-![](archimedean_spiral.png)
+[回答例](./archimedean_spiral.jl)
 
 
 ## オイラーの公式
@@ -121,9 +109,9 @@ theta=80: 1.3962634015954636
 
 この<img src="https://latex.codecogs.com/gif.latex?e^{i\theta}">をガウス平面上にプロットする．
 
-実行例
-
-![](eulers_formula.png)
+**実行例**
+![eulersFormula](eulers_formula.png)
+[回答例](./eulers_formula.jl)
 
 ## マクローリン展開
 <img src="https://latex.codecogs.com/gif.latex?e^x">のマクローリン展開は，
@@ -134,11 +122,8 @@ theta=80: 1.3962634015954636
 
 <img src="https://latex.codecogs.com/gif.latex?x=1">としてマクローリン展開を計算し，ネイピア数を求める．
 
-実行例
+[回答例](./maclaurins_expansional.jl)
 
-```bash
-e=2.7182818284590455
-```
 
 ## フェルマーテスト
 フェルマーテストは，フェルマーの小定理の対偶を利用した素数判定法．
@@ -149,7 +134,7 @@ e=2.7182818284590455
 
 <img src="https://latex.codecogs.com/gif.latex?p">が合成数のとき，上記の等式は成り立たない可能性があることを利用して，素数判定を行う．
 
-**フェルマーテスト**
+**フェルマーテスト**  
 以下の試行を1セットとして，複数回試行を繰り返す．
 1. <img src="https://latex.codecogs.com/gif.latex?a">を，<img src="https://latex.codecogs.com/gif.latex?2">から<img src="https://latex.codecogs.com/gif.latex?n-1">までの数からランダムに選ぶ
 2. <img src="https://latex.codecogs.com/gif.latex?a">と<img src="https://latex.codecogs.com/gif.latex?n">が互いに素でないとき，<img src="https://latex.codecogs.com/gif.latex?n">は合成数
@@ -157,9 +142,4 @@ e=2.7182818284590455
 
 試行回数を100として，57および23が素数かどうか判定する．
 
-実行例
-
-```bash
-57 is prime: false
-23 is prime: true
-```
+[回答例](./fermat_test.jl)
