@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（34/60）
+## Contents（35/60）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -34,7 +34,7 @@ Juliaによる数値計算100本ノック．
 * [ ] Gauss–Legendre公式による数値積分
 * [ ] Romberg積分による数値積分
 
-### [線形代数](matrix_operation)（8/10）
+### [線形代数](matrix_operation)（9/10）
 * [x] 行列の定義
 * [x] 行列演算
 * [x] ノルムの計算
@@ -45,7 +45,7 @@ Juliaによる数値計算100本ノック．
 * [x] Frobenius theorem
 * [x] Vandermonde行列式
 * [ ] Woodburyの恒等式
-* [ ] Cauchy-Binetの公式
+* [x] Cauchy-Binetの公式
 
 ### [線型方程式](linear_equation)（0/5）
 * [ ] ガウスの消去法

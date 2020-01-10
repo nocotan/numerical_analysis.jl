@@ -185,3 +185,25 @@ Vandermonde行列の行列式は，各行の公比の差積に等しく，以下
 vandermonde: -12
 det(A): -11.999999999999993
 ```
+
+## Woodburyの恒等式
+
+## Cauchy-Binetの公式
+
+<img src="https://latex.codecogs.com/gif.latex?m">，<img src="https://latex.codecogs.com/gif.latex?n">を<img src="https://latex.codecogs.com/gif.latex?m\leq{n}">となるような自然数とし，<img src="https://latex.codecogs.com/gif.latex?A">を<img src="https://latex.codecogs.com/gif.latex?m\times{n}">の行列，<img src="https://latex.codecogs.com/gif.latex?B">を<img src="https://latex.codecogs.com/gif.latex?n\times{m}">の行列とする．
+<img src="https://latex.codecogs.com/gif.latex?S">を要素数<img src="https://latex.codecogs.com/gif.latex?m">の<img src="https://latex.codecogs.com/gif.latex?[n]">の部分集合とすると，以下の等式が成り立つ．
+
+<img src="https://latex.codecogs.com/gif.latex?det(AB)=\sum_{S\subset{[n]},|S|=m}det(A_S)det(B^S)">
+
+ここで，<img src="https://latex.codecogs.com/gif.latex?A_S">は<img src="https://latex.codecogs.com/gif.latex?A">から<img src="https://latex.codecogs.com/gif.latex?S">に対応する列を取り出した行列，<img src="https://latex.codecogs.com/gif.latex?B^S">は<img src="https://latex.codecogs.com/gif.latex?B">から<img src="https://latex.codecogs.com/gif.latex?S">に対応する行を取り出した行列．
+
+<img src="https://latex.codecogs.com/gif.latex?A=\left(\begin{array}{cccc}3&1&2&2\\1&3&8&2\\2&3&5&1\end{array}\right), B=\left(\begin{array}{ccc}1&0&2\\1&3&6\\2&2&0\\0&1&1\end{array}\right)">
+
+として，この等式が成り立つことを確認する．
+
+出力例
+
+```bash
+det(AB)=208.0000000000001
+cauchy-binet: 207.9999999999999
+```
