@@ -23,10 +23,10 @@ $ make -j2
 Juliaを用いた基本的な四則演算を試す．
 <img src="https://latex.codecogs.com/gif.latex?a=3">，<img src="https://latex.codecogs.com/gif.latex?b=5">として，
 
-<img src="https://latex.codecogs.com/gif.latex?a+b">  
-<img src="https://latex.codecogs.com/gif.latex?a-b">  
-<img src="https://latex.codecogs.com/gif.latex?a*b">  
-<img src="https://latex.codecogs.com/gif.latex?a/b">  
+* <img src="https://latex.codecogs.com/gif.latex?a+b">  
+* <img src="https://latex.codecogs.com/gif.latex?a-b">  
+* <img src="https://latex.codecogs.com/gif.latex?a*b">  
+* <img src="https://latex.codecogs.com/gif.latex?a/b">  
 
 を計算し出力する．
 
