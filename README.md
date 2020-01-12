@@ -86,3 +86,6 @@ Juliaによる数値計算100本ノック．
 * [ ] 複雑領域のメッシュ分割
 * [ ] Koreweg de Vries方程式の有限要素法による数値解
 * [ ] 熱拡散方程式の有限要素法による数値解
+
+## LICENSE
+This repository is MIT-style licensed, as found in the LICENSE file.
