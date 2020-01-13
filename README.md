@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（36/65）
+## Contents（36/70）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -20,12 +20,17 @@ Juliaによる数値計算100本ノック．
 * [x] マクローリン展開
 * [x] フェルマーテスト
 
-### [数値計算と誤差](numerical_error)（5/5）
+### [数値計算と誤差](numerical_error)（5/10）
+* [ ] Overflow
 * [x] 桁落ち
 * [x] 丸め誤差
 * [x] 情報落ち
 * [x] Rumpの例題
 * [x] 誤差伝播
+* [ ] 二進数表現
+* [ ] 階乗計算
+* [ ] 二項係数の計算
+* [ ] 二項定理
 
 ### [微積分](calculus)（3/10）
 * [ ] <img src="https://latex.codecogs.com/gif.latex?\varepsilon-\delta">論法による極限の定義
