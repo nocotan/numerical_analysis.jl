@@ -28,7 +28,7 @@ Juliaによる数値計算100本ノック．
 * [x] 誤差伝播
 
 ### [微積分](calculus)（3/10）
-* [ ] <img src="https://latex.codecogs.com/gif.latex?\epsilon-\delta">論法による極限の定義
+* [ ] <img src="https://latex.codecogs.com/gif.latex?\varepsilon-\delta">論法による極限の定義
 * [ ] 中間値の定理
 * [ ] 平均値の定理
 * [x] 数値微分
