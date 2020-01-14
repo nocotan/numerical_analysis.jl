@@ -98,5 +98,10 @@ Juliaによる数値計算100本ノック．
 * [ ] Koreweg de Vries方程式の有限要素法による数値解
 * [ ] 熱拡散方程式の有限要素法による数値解
 
+### [精度保証付き数値計算](self_validating) (0/3)
+* [ ] 区間演算
+* [ ] Newton型作用素
+* [ ] 不動点定理
+
 ## LICENSE
 This repository is MIT-style licensed, as found in the LICENSE file.
