@@ -187,7 +187,7 @@ det(A): -11.999999999999993
 ```
 
 ## Woodburyの恒等式
-ある正則行列<img src="https://latex.codecogs.com/gif.latex?A, B, C, D">について，
+ある正則行列<img src="https://latex.codecogs.com/gif.latex?A,B,C,D">について，
 
 <img src="https://latex.codecogs.com/gif.latex?(A+BCD)^{-1}=A^{-1}-A^{-1}B(C^{-1}+DA^{-1}B)^{-1}DA^{-1}">
 
