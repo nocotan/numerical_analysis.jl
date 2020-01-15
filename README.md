@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（36/70）
+## Contents（37/70）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
@@ -32,14 +32,14 @@ Juliaによる数値計算100本ノック．
 * [ ] 二項係数の計算
 * [ ] 二項定理
 
-### [微積分](calculus)（3/10）
+### [微積分](calculus)（4/10）
 * [ ] <img src="https://latex.codecogs.com/gif.latex?\varepsilon-\delta">論法による極限の定義
 * [ ] 中間値の定理
 * [ ] 平均値の定理
 * [x] 数値微分
 * [x] 台形則による数値積分
 * [x] Simpson則による数値積分
-* [ ] Gauss–Legendre公式による数値積分
+* [x] Gauss–Legendre公式による数値積分
 * [ ] Romberg積分による数値積分
 * [ ] 2曲線間の面積
 * [ ] 表面積の計算
