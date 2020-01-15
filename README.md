@@ -104,4 +104,4 @@ Juliaによる数値計算100本ノック．
 * [ ] 不動点定理
 
 ## LICENSE
-This repository is MIT-style licensed, as found in the LICENSE file.
+This repository is MIT-style licensed, as found in the [LICENSE file](./LICENSE).
