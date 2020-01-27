@@ -6,7 +6,7 @@ Juliaによる数値計算100本ノック．
 ## Requirements
 * Julia v1.3.1
 
-## Contents（37/70）
+## Contents（38/70）
 
 ### [Juliaの基本](julia_basics) (10/10)
 * [x] 四則演算
