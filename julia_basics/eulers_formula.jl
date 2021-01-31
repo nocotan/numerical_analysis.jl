@@ -8,4 +8,4 @@ x = real.(z)
 y = imag.(z)
 
 plot(x, y)
-savefig("eulers_formula.png")
+savefig("eulers_formula.png")  # -> 
